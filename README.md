@@ -1,9 +1,11 @@
-What is this Microservice
+**What is this Microservice**
+
     This is REST service that will manage details of drivers. 
     
-REST endpoints
+**REST endpoints**
 
-POST URL : http://localhost:8080/driver/create
+
+**POST URL** : http://localhost:8080/driver/create
 
 Request
 
@@ -24,7 +26,7 @@ Response
 }
 
 
-GET URL : http://localhost:8080/drivers
+**GET URL** : http://localhost:8080/drivers
 
 Response
 
@@ -46,7 +48,7 @@ Response
 ]
 
 
-POST URL : http://localhost:8080/drivers/byDate?date=1985-05-01
+**GET URL** : http://localhost:8080/drivers/byDate?date=1985-05-01
 
 
 Response
@@ -68,10 +70,13 @@ Response
     }
 ]
 
-Run the spring boot Application 
+
+**Run this spring boot Application**
+
 
 For running the Spring Boot application, open DriverManagementApplication, and run it as Java Application.
 
-How to Run Spring Boot Application
 When the application runs successfully, it shows the message in the console, as shown below.
 
+Tomcat server is the default server used. 
+H2 is the in memory database used for storing the data.
