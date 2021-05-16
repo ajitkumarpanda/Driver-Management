@@ -47,7 +47,6 @@ public class DriverService {
             driverList = repository.findByCreationDateAfter(formatter.parse(date));
         } catch (ParseException e) {
             logger.error("Parsing error for the provided date", e.getMessage());
-            e.printStackTrace();
         }
         logger.info("ALL_DRIVERS, all Drivers{} created after date{} from database ", driverList, date);
         return driverList;
